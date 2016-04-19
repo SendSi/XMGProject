@@ -9,11 +9,20 @@
 /* Begin PBXBuildFile section */
 		135A2B371CBE8AD600FDA8BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 135A2B361CBE8AD600FDA8BD /* main.m */; };
 		135A2B3A1CBE8AD600FDA8BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 135A2B391CBE8AD600FDA8BD /* AppDelegate.m */; };
-		135A2B3D1CBE8AD600FDA8BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135A2B3C1CBE8AD600FDA8BD /* ViewController.m */; };
-		135A2B401CBE8AD600FDA8BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 135A2B3E1CBE8AD600FDA8BD /* Main.storyboard */; };
 		135A2B421CBE8AD600FDA8BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 135A2B411CBE8AD600FDA8BD /* Images.xcassets */; };
-		135A2B451CBE8AD600FDA8BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 135A2B431CBE8AD600FDA8BD /* LaunchScreen.xib */; };
 		135A2B511CBE8AD700FDA8BD /* XMGProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 135A2B501CBE8AD700FDA8BD /* XMGProjectTests.m */; };
+		137A91151CC60D140003FB29 /* XMGEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137A90EB1CC60D140003FB29 /* XMGEssenceViewController.m */; settings = {ASSET_TAGS = (); }; };
+		137A91161CC60D140003FB29 /* XMGFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137A90F11CC60D140003FB29 /* XMGFriendTrendsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		137A91171CC60D140003FB29 /* XMGNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137A90F71CC60D140003FB29 /* XMGNewViewController.m */; settings = {ASSET_TAGS = (); }; };
+		137A91181CC60D140003FB29 /* XMGMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137A90FD1CC60D140003FB29 /* XMGMeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		137A91191CC60D140003FB29 /* UIBarButtonItem+XMGButtonItemTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 137A91071CC60D140003FB29 /* UIBarButtonItem+XMGButtonItemTool.m */; settings = {ASSET_TAGS = (); }; };
+		137A911A1CC60D140003FB29 /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 137A91091CC60D140003FB29 /* UIView+XMGExtension.m */; settings = {ASSET_TAGS = (); }; };
+		137A911B1CC60D140003FB29 /* XMGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137A910B1CC60D140003FB29 /* XMGNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		137A911C1CC60D140003FB29 /* XMGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 137A910D1CC60D140003FB29 /* XMGTabBar.m */; settings = {ASSET_TAGS = (); }; };
+		137A911D1CC60D140003FB29 /* XMGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137A910F1CC60D140003FB29 /* XMGTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		137A911E1CC60D140003FB29 /* XMGTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137A91141CC60D140003FB29 /* XMGTestViewController.m */; settings = {ASSET_TAGS = (); }; };
+		137A912A1CC610960003FB29 /* XMGFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 137A91291CC610960003FB29 /* XMGFriendTrendsViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		137A912C1CC61EC10003FB29 /* XMGMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 137A912B1CC61EC10003FB29 /* XMGMeViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +41,33 @@
 		135A2B361CBE8AD600FDA8BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		135A2B381CBE8AD600FDA8BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		135A2B391CBE8AD600FDA8BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		135A2B3B1CBE8AD600FDA8BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		135A2B3C1CBE8AD600FDA8BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		135A2B3F1CBE8AD600FDA8BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		135A2B411CBE8AD600FDA8BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		135A2B441CBE8AD600FDA8BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		135A2B4A1CBE8AD700FDA8BD /* XMGProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMGProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		135A2B4F1CBE8AD700FDA8BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		135A2B501CBE8AD700FDA8BD /* XMGProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGProjectTests.m; sourceTree = "<group>"; };
+		137A90EA1CC60D140003FB29 /* XMGEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGEssenceViewController.h; sourceTree = "<group>"; };
+		137A90EB1CC60D140003FB29 /* XMGEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGEssenceViewController.m; sourceTree = "<group>"; };
+		137A90F01CC60D140003FB29 /* XMGFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMGFriendTrendsViewController.h; path = ../../X02/controller/XMGFriendTrendsViewController.h; sourceTree = "<group>"; };
+		137A90F11CC60D140003FB29 /* XMGFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMGFriendTrendsViewController.m; path = ../../X02/controller/XMGFriendTrendsViewController.m; sourceTree = "<group>"; };
+		137A90F61CC60D140003FB29 /* XMGNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMGNewViewController.h; path = ../../X03/controller/XMGNewViewController.h; sourceTree = "<group>"; };
+		137A90F71CC60D140003FB29 /* XMGNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMGNewViewController.m; path = ../../X03/controller/XMGNewViewController.m; sourceTree = "<group>"; };
+		137A90FC1CC60D140003FB29 /* XMGMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGMeViewController.h; sourceTree = "<group>"; };
+		137A90FD1CC60D140003FB29 /* XMGMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGMeViewController.m; sourceTree = "<group>"; };
+		137A91061CC60D140003FB29 /* UIBarButtonItem+XMGButtonItemTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XMGButtonItemTool.h"; sourceTree = "<group>"; };
+		137A91071CC60D140003FB29 /* UIBarButtonItem+XMGButtonItemTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XMGButtonItemTool.m"; sourceTree = "<group>"; };
+		137A91081CC60D140003FB29 /* UIView+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension.h"; sourceTree = "<group>"; };
+		137A91091CC60D140003FB29 /* UIView+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension.m"; sourceTree = "<group>"; };
+		137A910A1CC60D140003FB29 /* XMGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGNavigationController.h; sourceTree = "<group>"; };
+		137A910B1CC60D140003FB29 /* XMGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGNavigationController.m; sourceTree = "<group>"; };
+		137A910C1CC60D140003FB29 /* XMGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTabBar.h; sourceTree = "<group>"; };
+		137A910D1CC60D140003FB29 /* XMGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTabBar.m; sourceTree = "<group>"; };
+		137A910E1CC60D140003FB29 /* XMGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTabBarController.h; sourceTree = "<group>"; };
+		137A910F1CC60D140003FB29 /* XMGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTabBarController.m; sourceTree = "<group>"; };
+		137A91111CC60D140003FB29 /* myPch.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPch.pch; sourceTree = "<group>"; };
+		137A91131CC60D140003FB29 /* XMGTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTestViewController.h; sourceTree = "<group>"; };
+		137A91141CC60D140003FB29 /* XMGTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTestViewController.m; sourceTree = "<group>"; };
+		137A91291CC610960003FB29 /* XMGFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		137A912B1CC61EC10003FB29 /* XMGMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGMeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +109,10 @@
 		135A2B331CBE8AD600FDA8BD /* XMGProject */ = {
 			isa = PBXGroup;
 			children = (
+				137A90E71CC60D140003FB29 /* Scripts */,
 				135A2B381CBE8AD600FDA8BD /* AppDelegate.h */,
 				135A2B391CBE8AD600FDA8BD /* AppDelegate.m */,
-				135A2B3B1CBE8AD600FDA8BD /* ViewController.h */,
-				135A2B3C1CBE8AD600FDA8BD /* ViewController.m */,
-				135A2B3E1CBE8AD600FDA8BD /* Main.storyboard */,
 				135A2B411CBE8AD600FDA8BD /* Images.xcassets */,
-				135A2B431CBE8AD600FDA8BD /* LaunchScreen.xib */,
 				135A2B341CBE8AD600FDA8BD /* Supporting Files */,
 			);
 			path = XMGProject;
@@ -117,6 +142,228 @@
 				135A2B4F1CBE8AD700FDA8BD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		137A90E71CC60D140003FB29 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				137A90E81CC60D140003FB29 /* X01 */,
+				137A90EE1CC60D140003FB29 /* X02 */,
+				137A90F41CC60D140003FB29 /* X03 */,
+				137A90FA1CC60D140003FB29 /* X04 */,
+				137A91001CC60D140003FB29 /* X05Center */,
+				137A91041CC60D140003FB29 /* X06Other */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		137A90E81CC60D140003FB29 /* X01 */ = {
+			isa = PBXGroup;
+			children = (
+				137A90E91CC60D140003FB29 /* controller */,
+				137A90EC1CC60D140003FB29 /* model */,
+				137A90ED1CC60D140003FB29 /* view */,
+			);
+			path = X01;
+			sourceTree = "<group>";
+		};
+		137A90E91CC60D140003FB29 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				137A90EA1CC60D140003FB29 /* XMGEssenceViewController.h */,
+				137A90EB1CC60D140003FB29 /* XMGEssenceViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		137A90EC1CC60D140003FB29 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		137A90ED1CC60D140003FB29 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		137A90EE1CC60D140003FB29 /* X02 */ = {
+			isa = PBXGroup;
+			children = (
+				137A90EF1CC60D140003FB29 /* controller */,
+				137A90F21CC60D140003FB29 /* model */,
+				137A90F31CC60D140003FB29 /* view */,
+			);
+			path = X02;
+			sourceTree = "<group>";
+		};
+		137A90EF1CC60D140003FB29 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				137A90F61CC60D140003FB29 /* XMGNewViewController.h */,
+				137A90F71CC60D140003FB29 /* XMGNewViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		137A90F21CC60D140003FB29 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		137A90F31CC60D140003FB29 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		137A90F41CC60D140003FB29 /* X03 */ = {
+			isa = PBXGroup;
+			children = (
+				137A90F51CC60D140003FB29 /* controller */,
+				137A90F81CC60D140003FB29 /* model */,
+				137A90F91CC60D140003FB29 /* view */,
+			);
+			path = X03;
+			sourceTree = "<group>";
+		};
+		137A90F51CC60D140003FB29 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				137A90F01CC60D140003FB29 /* XMGFriendTrendsViewController.h */,
+				137A90F11CC60D140003FB29 /* XMGFriendTrendsViewController.m */,
+				137A91291CC610960003FB29 /* XMGFriendTrendsViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		137A90F81CC60D140003FB29 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		137A90F91CC60D140003FB29 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		137A90FA1CC60D140003FB29 /* X04 */ = {
+			isa = PBXGroup;
+			children = (
+				137A90FB1CC60D140003FB29 /* controller */,
+				137A90FE1CC60D140003FB29 /* model */,
+				137A90FF1CC60D140003FB29 /* view */,
+			);
+			path = X04;
+			sourceTree = "<group>";
+		};
+		137A90FB1CC60D140003FB29 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				137A90FC1CC60D140003FB29 /* XMGMeViewController.h */,
+				137A90FD1CC60D140003FB29 /* XMGMeViewController.m */,
+				137A912B1CC61EC10003FB29 /* XMGMeViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		137A90FE1CC60D140003FB29 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		137A90FF1CC60D140003FB29 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		137A91001CC60D140003FB29 /* X05Center */ = {
+			isa = PBXGroup;
+			children = (
+				137A91011CC60D140003FB29 /* controller */,
+				137A91021CC60D140003FB29 /* model */,
+				137A91031CC60D140003FB29 /* view */,
+			);
+			path = X05Center;
+			sourceTree = "<group>";
+		};
+		137A91011CC60D140003FB29 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		137A91021CC60D140003FB29 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		137A91031CC60D140003FB29 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		137A91041CC60D140003FB29 /* X06Other */ = {
+			isa = PBXGroup;
+			children = (
+				137A91051CC60D140003FB29 /* controller */,
+				137A91101CC60D140003FB29 /* model */,
+				137A91111CC60D140003FB29 /* myPch.pch */,
+				137A91121CC60D140003FB29 /* view */,
+				137A91131CC60D140003FB29 /* XMGTestViewController.h */,
+				137A91141CC60D140003FB29 /* XMGTestViewController.m */,
+			);
+			path = X06Other;
+			sourceTree = "<group>";
+		};
+		137A91051CC60D140003FB29 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				137A91061CC60D140003FB29 /* UIBarButtonItem+XMGButtonItemTool.h */,
+				137A91071CC60D140003FB29 /* UIBarButtonItem+XMGButtonItemTool.m */,
+				137A91081CC60D140003FB29 /* UIView+XMGExtension.h */,
+				137A91091CC60D140003FB29 /* UIView+XMGExtension.m */,
+				137A910A1CC60D140003FB29 /* XMGNavigationController.h */,
+				137A910B1CC60D140003FB29 /* XMGNavigationController.m */,
+				137A910C1CC60D140003FB29 /* XMGTabBar.h */,
+				137A910D1CC60D140003FB29 /* XMGTabBar.m */,
+				137A910E1CC60D140003FB29 /* XMGTabBarController.h */,
+				137A910F1CC60D140003FB29 /* XMGTabBarController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		137A91101CC60D140003FB29 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		137A91121CC60D140003FB29 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +410,7 @@
 		135A2B291CBE8AD600FDA8BD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XMG;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = Scuplt0413;
 				TargetAttributes = {
@@ -199,9 +447,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				135A2B401CBE8AD600FDA8BD /* Main.storyboard in Resources */,
-				135A2B451CBE8AD600FDA8BD /* LaunchScreen.xib in Resources */,
 				135A2B421CBE8AD600FDA8BD /* Images.xcassets in Resources */,
+				137A912A1CC610960003FB29 /* XMGFriendTrendsViewController.xib in Resources */,
+				137A912C1CC61EC10003FB29 /* XMGMeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +467,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				135A2B3D1CBE8AD600FDA8BD /* ViewController.m in Sources */,
+				137A911D1CC60D140003FB29 /* XMGTabBarController.m in Sources */,
+				137A911C1CC60D140003FB29 /* XMGTabBar.m in Sources */,
+				137A91151CC60D140003FB29 /* XMGEssenceViewController.m in Sources */,
+				137A91171CC60D140003FB29 /* XMGNewViewController.m in Sources */,
+				137A91161CC60D140003FB29 /* XMGFriendTrendsViewController.m in Sources */,
+				137A911B1CC60D140003FB29 /* XMGNavigationController.m in Sources */,
+				137A91181CC60D140003FB29 /* XMGMeViewController.m in Sources */,
 				135A2B3A1CBE8AD600FDA8BD /* AppDelegate.m in Sources */,
+				137A911A1CC60D140003FB29 /* UIView+XMGExtension.m in Sources */,
+				137A911E1CC60D140003FB29 /* XMGTestViewController.m in Sources */,
+				137A91191CC60D140003FB29 /* UIBarButtonItem+XMGButtonItemTool.m in Sources */,
 				135A2B371CBE8AD600FDA8BD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +499,6 @@
 			targetProxy = 135A2B4B1CBE8AD700FDA8BD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		135A2B3E1CBE8AD600FDA8BD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				135A2B3F1CBE8AD600FDA8BD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		135A2B431CBE8AD600FDA8BD /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				135A2B441CBE8AD600FDA8BD /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		135A2B521CBE8AD700FDA8BD /* Debug */ = {
@@ -286,6 +524,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = XMGProject/Scripts/X06Other/myPch.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -326,6 +565,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = XMGProject/Scripts/X06Other/myPch.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -343,7 +583,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XMGProject/Scripts/X06Other/myPch.pch";
 				INFOPLIST_FILE = XMGProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +596,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XMGProject/Scripts/X06Other/myPch.pch";
 				INFOPLIST_FILE = XMGProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +658,7 @@
 				135A2B561CBE8AD700FDA8BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		135A2B571CBE8AD700FDA8BD /* Build configuration list for PBXNativeTarget "XMGProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +667,7 @@
 				135A2B591CBE8AD700FDA8BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
