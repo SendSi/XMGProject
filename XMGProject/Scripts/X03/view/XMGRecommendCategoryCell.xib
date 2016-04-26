@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="category" id="KGk-i7-Jjw" customClass="XMGRecommendCategoryCell">
+            <rect key="frame" x="0.0" y="0.0" width="196" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="196" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QXM-Hw-5Ib">
+                        <rect key="frame" x="0.0" y="42" width="196" height="1"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="kz2-th-0oA"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0IY-2i-Ipv">
+                        <rect key="frame" x="0.0" y="0.0" width="2" height="43"/>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="2" id="PUe-G4-CbD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="QXM-Hw-5Ib" secondAttribute="trailing" id="1uT-gL-BBx"/>
+                    <constraint firstItem="QXM-Hw-5Ib" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="4us-RW-NqT"/>
+                    <constraint firstAttribute="bottom" secondItem="QXM-Hw-5Ib" secondAttribute="bottom" id="7Ui-bF-v0x"/>
+                    <constraint firstItem="0IY-2i-Ipv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="LuZ-Qe-oyv"/>
+                    <constraint firstItem="0IY-2i-Ipv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="RWt-P8-j12"/>
+                    <constraint firstAttribute="bottom" secondItem="0IY-2i-Ipv" secondAttribute="bottom" id="aZL-qg-2YL"/>
+                    <constraint firstItem="0IY-2i-Ipv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ahh-fk-jKu"/>
+                    <constraint firstAttribute="bottom" secondItem="0IY-2i-Ipv" secondAttribute="bottom" id="fWL-oA-lMX"/>
+                    <constraint firstItem="0IY-2i-Ipv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="vi9-WL-mCO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="selectLeftRed" destination="0IY-2i-Ipv" id="rc7-v2-rf2"/>
+            </connections>
+            <point key="canvasLocation" x="258" y="283"/>
+        </tableViewCell>
+    </objects>
+</document>
