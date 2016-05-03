@@ -36,6 +36,10 @@
 		13BA41161CCB3036008EF7C9 /* XMGRecommendAttentionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BA41151CCB3036008EF7C9 /* XMGRecommendAttentionModel.m */; settings = {ASSET_TAGS = (); }; };
 		13BA411D1CCB30DD008EF7C9 /* XMGRecommendAttentionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BA411B1CCB30DD008EF7C9 /* XMGRecommendAttentionCell.m */; settings = {ASSET_TAGS = (); }; };
 		13BA411E1CCB30DD008EF7C9 /* XMGRecommendAttentionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13BA411C1CCB30DD008EF7C9 /* XMGRecommendAttentionCell.xib */; settings = {ASSET_TAGS = (); }; };
+		2D21EE791CD8DA960099EB0A /* XMGHighPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D21EE781CD8DA960099EB0A /* XMGHighPlaceholder.m */; settings = {ASSET_TAGS = (); }; };
+		2DCC442C1CD764FB00109755 /* XMGLoginResgisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC442A1CD764FB00109755 /* XMGLoginResgisterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2DCC442D1CD764FB00109755 /* XMGLoginResgisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DCC442B1CD764FB00109755 /* XMGLoginResgisterViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		2DCC44301CD79E7E00109755 /* XMGVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC442F1CD79E7E00109755 /* XMGVerticalButton.m */; settings = {ASSET_TAGS = (); }; };
 		F2E7A4AC6DF2FDB25794F140 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C88448A9F0DB8E86FF2B211 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -103,6 +107,13 @@
 		13BA411A1CCB30DD008EF7C9 /* XMGRecommendAttentionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGRecommendAttentionCell.h; sourceTree = "<group>"; };
 		13BA411B1CCB30DD008EF7C9 /* XMGRecommendAttentionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGRecommendAttentionCell.m; sourceTree = "<group>"; };
 		13BA411C1CCB30DD008EF7C9 /* XMGRecommendAttentionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGRecommendAttentionCell.xib; sourceTree = "<group>"; };
+		2D21EE771CD8DA960099EB0A /* XMGHighPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGHighPlaceholder.h; sourceTree = "<group>"; };
+		2D21EE781CD8DA960099EB0A /* XMGHighPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGHighPlaceholder.m; sourceTree = "<group>"; };
+		2DCC44291CD764FB00109755 /* XMGLoginResgisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGLoginResgisterViewController.h; sourceTree = "<group>"; };
+		2DCC442A1CD764FB00109755 /* XMGLoginResgisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGLoginResgisterViewController.m; sourceTree = "<group>"; };
+		2DCC442B1CD764FB00109755 /* XMGLoginResgisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGLoginResgisterViewController.xib; sourceTree = "<group>"; };
+		2DCC442E1CD79E7E00109755 /* XMGVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGVerticalButton.h; sourceTree = "<group>"; };
+		2DCC442F1CD79E7E00109755 /* XMGVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGVerticalButton.m; sourceTree = "<group>"; };
 		5C88448A9F0DB8E86FF2B211 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D7955D1C8AB195920EBAE8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		FC987771EABB618D85F0552F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -290,6 +301,9 @@
 				1345186E1CC7247100EB8587 /* XMGRecommendViewController.h */,
 				1345186F1CC7247100EB8587 /* XMGRecommendViewController.m */,
 				134518701CC7247100EB8587 /* XMGRecommendViewController.xib */,
+				2DCC44291CD764FB00109755 /* XMGLoginResgisterViewController.h */,
+				2DCC442A1CD764FB00109755 /* XMGLoginResgisterViewController.m */,
+				2DCC442B1CD764FB00109755 /* XMGLoginResgisterViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -314,6 +328,10 @@
 				13926B501CC889F100B2BA0B /* XMGRecommondUserCell.h */,
 				13926B511CC889F100B2BA0B /* XMGRecommondUserCell.m */,
 				13926B521CC889F100B2BA0B /* XMGRecommondUserCell.xib */,
+				2DCC442E1CD79E7E00109755 /* XMGVerticalButton.h */,
+				2DCC442F1CD79E7E00109755 /* XMGVerticalButton.m */,
+				2D21EE771CD8DA960099EB0A /* XMGHighPlaceholder.h */,
+				2D21EE781CD8DA960099EB0A /* XMGHighPlaceholder.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -529,6 +547,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DCC442D1CD764FB00109755 /* XMGLoginResgisterViewController.xib in Resources */,
 				13926B541CC889F100B2BA0B /* XMGRecommondUserCell.xib in Resources */,
 				134518721CC7247100EB8587 /* XMGRecommendViewController.xib in Resources */,
 				135AF2BA1CC77BC1009D0476 /* XMGRecommendCategoryCell.xib in Resources */,
@@ -606,16 +625,19 @@
 				13880F441CC72E95002131AD /* Foundation+Log.m in Sources */,
 				137A911D1CC60D140003FB29 /* XMGTabBarController.m in Sources */,
 				137A911C1CC60D140003FB29 /* XMGTabBar.m in Sources */,
+				2D21EE791CD8DA960099EB0A /* XMGHighPlaceholder.m in Sources */,
 				137A91151CC60D140003FB29 /* XMGEssenceViewController.m in Sources */,
 				13880F471CC767F2002131AD /* XMGRecommondCategoryModel.m in Sources */,
 				13926B4F1CC8896600B2BA0B /* XMGRecommondUserModel.m in Sources */,
 				137A91171CC60D140003FB29 /* XMGNewViewController.m in Sources */,
 				137A91161CC60D140003FB29 /* XMGFriendTrendsViewController.m in Sources */,
+				2DCC442C1CD764FB00109755 /* XMGLoginResgisterViewController.m in Sources */,
 				137A911B1CC60D140003FB29 /* XMGNavigationController.m in Sources */,
 				135AF2B91CC77BC1009D0476 /* XMGRecommendCategoryCell.m in Sources */,
 				137A91181CC60D140003FB29 /* XMGMeViewController.m in Sources */,
 				13926B531CC889F100B2BA0B /* XMGRecommondUserCell.m in Sources */,
 				135A2B3A1CBE8AD600FDA8BD /* AppDelegate.m in Sources */,
+				2DCC44301CD79E7E00109755 /* XMGVerticalButton.m in Sources */,
 				137A911A1CC60D140003FB29 /* UIView+XMGExtension.m in Sources */,
 				13BA41161CCB3036008EF7C9 /* XMGRecommendAttentionModel.m in Sources */,
 				13BA411D1CCB30DD008EF7C9 /* XMGRecommendAttentionCell.m in Sources */,
