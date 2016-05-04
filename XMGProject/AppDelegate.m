@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "XMGTabBarController.h"
+#import "XMGGuideView.h"
 @interface AppDelegate ()
 
 @end
@@ -19,6 +20,10 @@
     self.window=[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds] ];
     self.window.rootViewController=[[XMGTabBarController alloc ] init];
     [self.window makeKeyAndVisible];
+    
+    
+
+    [XMGGuideView showNew];
     return YES;
 }
 

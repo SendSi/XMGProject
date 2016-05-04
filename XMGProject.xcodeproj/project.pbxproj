@@ -13,6 +13,8 @@
 		135A2B3A1CBE8AD600FDA8BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 135A2B391CBE8AD600FDA8BD /* AppDelegate.m */; };
 		135A2B421CBE8AD600FDA8BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 135A2B411CBE8AD600FDA8BD /* Images.xcassets */; };
 		135A2B511CBE8AD700FDA8BD /* XMGProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 135A2B501CBE8AD700FDA8BD /* XMGProjectTests.m */; };
+		135AD0211CD9B183001B70E6 /* XMGGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 135AD0201CD9B183001B70E6 /* XMGGuideView.m */; settings = {ASSET_TAGS = (); }; };
+		135AD0231CD9B19D001B70E6 /* XMGGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 135AD0221CD9B19D001B70E6 /* XMGGuideView.xib */; settings = {ASSET_TAGS = (); }; };
 		135AF2B91CC77BC1009D0476 /* XMGRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 135AF2B71CC77BC1009D0476 /* XMGRecommendCategoryCell.m */; settings = {ASSET_TAGS = (); }; };
 		135AF2BA1CC77BC1009D0476 /* XMGRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 135AF2B81CC77BC1009D0476 /* XMGRecommendCategoryCell.xib */; settings = {ASSET_TAGS = (); }; };
 		137A91151CC60D140003FB29 /* XMGEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137A90EB1CC60D140003FB29 /* XMGEssenceViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -66,6 +68,9 @@
 		135A2B4A1CBE8AD700FDA8BD /* XMGProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMGProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		135A2B4F1CBE8AD700FDA8BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		135A2B501CBE8AD700FDA8BD /* XMGProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGProjectTests.m; sourceTree = "<group>"; };
+		135AD01F1CD9B183001B70E6 /* XMGGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMGGuideView.h; path = XMGProject/Scripts/X06Other/XMGGuideView.h; sourceTree = SOURCE_ROOT; };
+		135AD0201CD9B183001B70E6 /* XMGGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMGGuideView.m; path = XMGProject/Scripts/X06Other/XMGGuideView.m; sourceTree = SOURCE_ROOT; };
+		135AD0221CD9B19D001B70E6 /* XMGGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = XMGGuideView.xib; path = XMGProject/Scripts/X06Other/controller/XMGGuideView.xib; sourceTree = SOURCE_ROOT; };
 		135AF2B61CC77BC1009D0476 /* XMGRecommendCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGRecommendCategoryCell.h; sourceTree = "<group>"; };
 		135AF2B71CC77BC1009D0476 /* XMGRecommendCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGRecommendCategoryCell.m; sourceTree = "<group>"; };
 		135AF2B81CC77BC1009D0476 /* XMGRecommendCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGRecommendCategoryCell.xib; sourceTree = "<group>"; };
@@ -404,10 +409,10 @@
 		137A91041CC60D140003FB29 /* X06Other */ = {
 			isa = PBXGroup;
 			children = (
+				137A91111CC60D140003FB29 /* myPch.pch */,
 				13880F431CC72E95002131AD /* Foundation+Log.m */,
 				137A91051CC60D140003FB29 /* controller */,
 				137A91101CC60D140003FB29 /* model */,
-				137A91111CC60D140003FB29 /* myPch.pch */,
 				137A91121CC60D140003FB29 /* view */,
 				137A91131CC60D140003FB29 /* XMGTestViewController.h */,
 				137A91141CC60D140003FB29 /* XMGTestViewController.m */,
@@ -442,6 +447,9 @@
 		137A91121CC60D140003FB29 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				135AD01F1CD9B183001B70E6 /* XMGGuideView.h */,
+				135AD0201CD9B183001B70E6 /* XMGGuideView.m */,
+				135AD0221CD9B19D001B70E6 /* XMGGuideView.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -511,7 +519,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = XMG;
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Scuplt0413;
 				TargetAttributes = {
 					135A2B301CBE8AD600FDA8BD = {
@@ -548,6 +556,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DCC442D1CD764FB00109755 /* XMGLoginResgisterViewController.xib in Resources */,
+				135AD0231CD9B19D001B70E6 /* XMGGuideView.xib in Resources */,
 				13926B541CC889F100B2BA0B /* XMGRecommondUserCell.xib in Resources */,
 				134518721CC7247100EB8587 /* XMGRecommendViewController.xib in Resources */,
 				135AF2BA1CC77BC1009D0476 /* XMGRecommendCategoryCell.xib in Resources */,
@@ -621,6 +630,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13BA41131CCB2DA6008EF7C9 /* XMGRecommendAttentionTableViewController.m in Sources */,
+				135AD0211CD9B183001B70E6 /* XMGGuideView.m in Sources */,
 				134518711CC7247100EB8587 /* XMGRecommendViewController.m in Sources */,
 				13880F441CC72E95002131AD /* Foundation+Log.m in Sources */,
 				137A911D1CC60D140003FB29 /* XMGTabBarController.m in Sources */,
@@ -686,6 +696,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -754,6 +765,7 @@
 				INFOPLIST_FILE = XMGProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Scuplt0413.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -768,6 +780,7 @@
 				INFOPLIST_FILE = XMGProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Scuplt0413.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -786,6 +799,7 @@
 				);
 				INFOPLIST_FILE = XMGProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Scuplt0413.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMGProject.app/XMGProject";
 			};
@@ -801,6 +815,7 @@
 				);
 				INFOPLIST_FILE = XMGProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Scuplt0413.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMGProject.app/XMGProject";
 			};

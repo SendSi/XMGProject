@@ -109,27 +109,6 @@
       "idiom" : "ipad",
       "filename" : "AppIcon76x76@2x~ipad.png",
       "scale" : "2x"
-    },
-    {
-      "size" : "29x29",
-      "idiom" : "iphone",
-      "filename" : "AppIcon29x29~ipad.png",
-      "unassigned" : true,
-      "scale" : "1x"
-    },
-    {
-      "size" : "29x29",
-      "idiom" : "iphone",
-      "filename" : "AppIcon29x29@2x~ipad.png",
-      "unassigned" : true,
-      "scale" : "2x"
-    },
-    {
-      "size" : "40x40",
-      "idiom" : "iphone",
-      "filename" : "AppIcon40x40@2x~ipad.png",
-      "unassigned" : true,
-      "scale" : "2x"
     }
   ],
   "info" : {

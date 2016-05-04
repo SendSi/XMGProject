@@ -9,6 +9,9 @@
 #import "XMGLoginResgisterViewController.h"
 
 @interface XMGLoginResgisterViewController ()
+- (IBAction)ClickChangeRightTop:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *leftConstranitLine;
+- (IBAction)CloseLoginPanel;
 
 @end
 
@@ -16,22 +19,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+   
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+/** 点击右上角的内容--切换 */
+- (IBAction)ClickChangeRightTop:(UIButton *)sender {
+    if(self.leftConstranitLine.constant==0)//注意细节...登录框,注册框 两者的宽度,top,   左边的边线 改为左对右
+    {
+    self.leftConstranitLine.constant=-self.view.width;
+        [sender setTitle:@"已有账号?" forState:UIControlStateNormal];
+    }
+    else{
+        [sender setTitle:@"注册账号" forState:UIControlStateNormal];
+        self.leftConstranitLine.constant=0;        
+    }
+    [UIView animateWithDuration:0.25 animations:^{
+        [self.view layoutIfNeeded];
+    }];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)CloseLoginPanel {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
-*/
-
 @end

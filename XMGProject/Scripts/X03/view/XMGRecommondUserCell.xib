@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -35,34 +36,41 @@
                         <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <view alpha="0.20000000000000001" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QnH-3c-uGL" userLabel="分割aj线">
-                        <rect key="frame" x="0.0" y="104" width="320" height="3"/>
+                    <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QnH-3c-uGL" userLabel="分割线">
+                        <rect key="frame" x="0.0" y="106" width="312" height="1"/>
                         <animations/>
                         <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="320" id="7M6-gp-caO"/>
                             <constraint firstAttribute="height" constant="1" id="tIG-cd-ubp"/>
                         </constraints>
                     </view>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNy-k8-Ijn" userLabel="+关注">
                         <rect key="frame" x="235" y="41" width="51" height="25"/>
                         <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="51" id="5Fo-DK-yCd"/>
+                            <constraint firstAttribute="height" constant="25" id="qHj-ZX-0Sc"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                        <state key="normal" title="+ 关注" backgroundImage="FollowBtnClickBg"/>
+                        <state key="normal" title="+ 关注" backgroundImage="FollowBtnBg">
+                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                        </state>
                         <state key="highlighted" title="+ 关注" backgroundImage="FollowBtnClickBg"/>
                     </button>
                 </subviews>
                 <animations/>
                 <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="xNy-k8-Ijn" secondAttribute="trailing" constant="26" id="33D-Pf-mbF"/>
                     <constraint firstItem="noG-RK-7bd" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="6SU-59-QVj"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="QnH-3c-uGL" secondAttribute="trailing" id="CNd-AW-ZHa"/>
                     <constraint firstItem="ipr-Rh-9uc" firstAttribute="top" secondItem="noG-RK-7bd" secondAttribute="top" id="FmA-1D-AKQ"/>
+                    <constraint firstAttribute="bottom" secondItem="QnH-3c-uGL" secondAttribute="bottom" id="GgX-57-lmH"/>
                     <constraint firstItem="noG-RK-7bd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="LJ4-0b-WQp"/>
-                    <constraint firstItem="xNy-k8-Ijn" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="PcX-gW-flZ"/>
+                    <constraint firstItem="QnH-3c-uGL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="LSd-XW-8Fm"/>
                     <constraint firstItem="ipr-Rh-9uc" firstAttribute="leading" secondItem="noG-RK-7bd" secondAttribute="trailing" constant="8" id="ePL-Xj-j0z"/>
                     <constraint firstItem="QyQ-DG-B5b" firstAttribute="leading" secondItem="noG-RK-7bd" secondAttribute="trailing" constant="8" id="evP-8Q-Rir"/>
-                    <constraint firstAttribute="bottom" secondItem="QnH-3c-uGL" secondAttribute="bottom" id="g6a-v1-OLw"/>
-                    <constraint firstItem="xNy-k8-Ijn" firstAttribute="leading" secondItem="noG-RK-7bd" secondAttribute="trailing" constant="180" id="hiC-mM-r8f"/>
                     <constraint firstItem="QyQ-DG-B5b" firstAttribute="bottom" secondItem="noG-RK-7bd" secondAttribute="bottom" id="m9c-s6-17u"/>
+                    <constraint firstItem="xNy-k8-Ijn" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="txu-Je-EGm"/>
                 </constraints>
             </tableViewCellContentView>
             <animations/>
@@ -76,6 +84,7 @@
         </tableViewCell>
     </objects>
     <resources>
+        <image name="FollowBtnBg" width="51" height="25"/>
         <image name="FollowBtnClickBg" width="51" height="25"/>
     </resources>
 </document>
