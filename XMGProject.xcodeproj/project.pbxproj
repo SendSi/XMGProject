@@ -39,6 +39,11 @@
 		13BA411D1CCB30DD008EF7C9 /* XMGRecommendAttentionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BA411B1CCB30DD008EF7C9 /* XMGRecommendAttentionCell.m */; settings = {ASSET_TAGS = (); }; };
 		13BA411E1CCB30DD008EF7C9 /* XMGRecommendAttentionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13BA411C1CCB30DD008EF7C9 /* XMGRecommendAttentionCell.xib */; settings = {ASSET_TAGS = (); }; };
 		2D21EE791CD8DA960099EB0A /* XMGHighPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D21EE781CD8DA960099EB0A /* XMGHighPlaceholder.m */; settings = {ASSET_TAGS = (); }; };
+		2D8826861CDED95E00F43CA1 /* XMGAllTableViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8826851CDED95E00F43CA1 /* XMGAllTableViewContoller.m */; settings = {ASSET_TAGS = (); }; };
+		2D8826891CDED97A00F43CA1 /* XMGVideoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8826881CDED97A00F43CA1 /* XMGVideoTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2D88268C1CDED98800F43CA1 /* XMGSoundsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D88268B1CDED98800F43CA1 /* XMGSoundsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2D88268F1CDED99600F43CA1 /* XMGTextureTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D88268E1CDED99600F43CA1 /* XMGTextureTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2D8826921CDEDA8B00F43CA1 /* XMGWordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8826911CDEDA8B00F43CA1 /* XMGWordTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		2DCC442C1CD764FB00109755 /* XMGLoginResgisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC442A1CD764FB00109755 /* XMGLoginResgisterViewController.m */; settings = {ASSET_TAGS = (); }; };
 		2DCC442D1CD764FB00109755 /* XMGLoginResgisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DCC442B1CD764FB00109755 /* XMGLoginResgisterViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		2DCC44301CD79E7E00109755 /* XMGVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC442F1CD79E7E00109755 /* XMGVerticalButton.m */; settings = {ASSET_TAGS = (); }; };
@@ -114,6 +119,16 @@
 		13BA411C1CCB30DD008EF7C9 /* XMGRecommendAttentionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGRecommendAttentionCell.xib; sourceTree = "<group>"; };
 		2D21EE771CD8DA960099EB0A /* XMGHighPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGHighPlaceholder.h; sourceTree = "<group>"; };
 		2D21EE781CD8DA960099EB0A /* XMGHighPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGHighPlaceholder.m; sourceTree = "<group>"; };
+		2D8826841CDED95E00F43CA1 /* XMGAllTableViewContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGAllTableViewContoller.h; sourceTree = "<group>"; };
+		2D8826851CDED95E00F43CA1 /* XMGAllTableViewContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGAllTableViewContoller.m; sourceTree = "<group>"; };
+		2D8826871CDED97A00F43CA1 /* XMGVideoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGVideoTableViewController.h; sourceTree = "<group>"; };
+		2D8826881CDED97A00F43CA1 /* XMGVideoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGVideoTableViewController.m; sourceTree = "<group>"; };
+		2D88268A1CDED98800F43CA1 /* XMGSoundsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSoundsTableViewController.h; sourceTree = "<group>"; };
+		2D88268B1CDED98800F43CA1 /* XMGSoundsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSoundsTableViewController.m; sourceTree = "<group>"; };
+		2D88268D1CDED99600F43CA1 /* XMGTextureTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTextureTableViewController.h; sourceTree = "<group>"; };
+		2D88268E1CDED99600F43CA1 /* XMGTextureTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTextureTableViewController.m; sourceTree = "<group>"; };
+		2D8826901CDEDA8B00F43CA1 /* XMGWordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGWordTableViewController.h; sourceTree = "<group>"; };
+		2D8826911CDEDA8B00F43CA1 /* XMGWordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGWordTableViewController.m; sourceTree = "<group>"; };
 		2DCC44291CD764FB00109755 /* XMGLoginResgisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGLoginResgisterViewController.h; sourceTree = "<group>"; };
 		2DCC442A1CD764FB00109755 /* XMGLoginResgisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGLoginResgisterViewController.m; sourceTree = "<group>"; };
 		2DCC442B1CD764FB00109755 /* XMGLoginResgisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGLoginResgisterViewController.xib; sourceTree = "<group>"; };
@@ -231,6 +246,16 @@
 				137A90EB1CC60D140003FB29 /* XMGEssenceViewController.m */,
 				13BA41111CCB2DA6008EF7C9 /* XMGRecommendAttentionTableViewController.h */,
 				13BA41121CCB2DA6008EF7C9 /* XMGRecommendAttentionTableViewController.m */,
+				2D8826841CDED95E00F43CA1 /* XMGAllTableViewContoller.h */,
+				2D8826851CDED95E00F43CA1 /* XMGAllTableViewContoller.m */,
+				2D8826871CDED97A00F43CA1 /* XMGVideoTableViewController.h */,
+				2D8826881CDED97A00F43CA1 /* XMGVideoTableViewController.m */,
+				2D88268A1CDED98800F43CA1 /* XMGSoundsTableViewController.h */,
+				2D88268B1CDED98800F43CA1 /* XMGSoundsTableViewController.m */,
+				2D88268D1CDED99600F43CA1 /* XMGTextureTableViewController.h */,
+				2D88268E1CDED99600F43CA1 /* XMGTextureTableViewController.m */,
+				2D8826901CDEDA8B00F43CA1 /* XMGWordTableViewController.h */,
+				2D8826911CDEDA8B00F43CA1 /* XMGWordTableViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -629,7 +654,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D88268C1CDED98800F43CA1 /* XMGSoundsTableViewController.m in Sources */,
 				13BA41131CCB2DA6008EF7C9 /* XMGRecommendAttentionTableViewController.m in Sources */,
+				2D88268F1CDED99600F43CA1 /* XMGTextureTableViewController.m in Sources */,
 				135AD0211CD9B183001B70E6 /* XMGGuideView.m in Sources */,
 				134518711CC7247100EB8587 /* XMGRecommendViewController.m in Sources */,
 				13880F441CC72E95002131AD /* Foundation+Log.m in Sources */,
@@ -640,11 +667,14 @@
 				13880F471CC767F2002131AD /* XMGRecommondCategoryModel.m in Sources */,
 				13926B4F1CC8896600B2BA0B /* XMGRecommondUserModel.m in Sources */,
 				137A91171CC60D140003FB29 /* XMGNewViewController.m in Sources */,
+				2D8826891CDED97A00F43CA1 /* XMGVideoTableViewController.m in Sources */,
+				2D8826861CDED95E00F43CA1 /* XMGAllTableViewContoller.m in Sources */,
 				137A91161CC60D140003FB29 /* XMGFriendTrendsViewController.m in Sources */,
 				2DCC442C1CD764FB00109755 /* XMGLoginResgisterViewController.m in Sources */,
 				137A911B1CC60D140003FB29 /* XMGNavigationController.m in Sources */,
 				135AF2B91CC77BC1009D0476 /* XMGRecommendCategoryCell.m in Sources */,
 				137A91181CC60D140003FB29 /* XMGMeViewController.m in Sources */,
+				2D8826921CDEDA8B00F43CA1 /* XMGWordTableViewController.m in Sources */,
 				13926B531CC889F100B2BA0B /* XMGRecommondUserCell.m in Sources */,
 				135A2B3A1CBE8AD600FDA8BD /* AppDelegate.m in Sources */,
 				2DCC44301CD79E7E00109755 /* XMGVerticalButton.m in Sources */,

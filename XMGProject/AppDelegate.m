@@ -21,8 +21,6 @@
     self.window.rootViewController=[[XMGTabBarController alloc ] init];
     [self.window makeKeyAndVisible];
     
-    
-
     [XMGGuideView showNew];
     return YES;
 }
