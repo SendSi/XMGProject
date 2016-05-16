@@ -8,32 +8,15 @@
 
 #import "XMGSoundsTableViewController.h"
 
+
 @interface XMGSoundsTableViewController ()
+
 
 @end
 
 @implementation XMGSoundsTableViewController
-
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
-}
-
-#pragma mark - Table view data source
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 10;
-}
-
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
-    if(cell==nil) cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"cell"];
-    
-    cell.detailTextLabel.text=[NSString stringWithFormat:@"%@-----%ld",[self class],(long)indexPath.row];
-    
-    return cell;
+-(NSString *)type{
+    return @"31";
 }
 
 @end

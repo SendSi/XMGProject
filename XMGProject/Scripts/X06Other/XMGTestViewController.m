@@ -14,6 +14,7 @@
     [super touchesBegan:touches withEvent:event];
     UIViewController *uc=[[UIViewController alloc] init];
     [uc.navigationController pushViewController:uc animated:YES];
+    
 }
 
 @end

@@ -13,6 +13,9 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 #import "UIView+XMGExtension.h"
 #import "UIBarButtonItem+XMGButtonItemTool.h"
+#import "XMGConst.h"
+#import "NSDate+XMGDateShow.h"
+
 
 #ifdef DEBUG
 #define NSLogs(...) NSLog(__VA_ARGS__)

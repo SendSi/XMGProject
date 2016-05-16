@@ -6,8 +6,8 @@
 //  Copyright © 2016年 Scuplt0413. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import  "XMGTopicBaseController.h"
 
-@interface XMGAllTableViewContoller : UITableViewController
+@interface XMGAllTableViewContoller : XMGTopicBaseController
 
 @end

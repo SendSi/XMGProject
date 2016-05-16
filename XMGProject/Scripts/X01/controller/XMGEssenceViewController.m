@@ -39,6 +39,7 @@
     
     [self setVCTableViewController];
     [self setNavTop];/** 设置导航栏的内容  */
+    
     [self setTitleCategory];/** 设置分类 头部标签  */
     [self setContentView];
 }
@@ -47,8 +48,9 @@
 /** 设置分类 头部标签  */
 -(void )setTitleCategory{
     UIView *fatherView=[[UIView alloc] init];
-    CGFloat heightView=35;
-    fatherView.frame=CGRectMake(0, 64, self.view.width, heightView);
+    CGFloat heightView=xmgTableViewH;
+    CGFloat viewY=xmgTableViewY;
+    fatherView.frame=CGRectMake(0, viewY, self.view.width, heightView);
     fatherView.backgroundColor=[[UIColor blackColor] colorWithAlphaComponent:0.1];
     [self.view addSubview:fatherView];
     
@@ -137,9 +139,7 @@
     [self.view insertSubview:conteview atIndex:0];
     //设置内边距
     
-    //    CGFloat bottom=self.tabBarController.tabBar.height;
-    //    CGFloat top=CGRectGetMaxY(self.titleContentView.frame);
-    //    conteview.contentInset=UIEdgeInsetsMake(top, 0, bottom, 0);
+
     conteview.contentSize=CGSizeMake(conteview.width*self.childViewControllers.count, 0 );
     conteview.pagingEnabled=YES;
     conteview.delegate=self;
@@ -158,15 +158,13 @@
     NSInteger index=scrollView.contentOffset.x/scrollView.width;
     
     //取出子控制器
-    UITableViewController *vc=self.childViewControllers[index];
+    UIViewController *vc=self.childViewControllers[index];
     vc.view.x=scrollView.contentOffset.x;
     vc.view.y=0;//必须设值
     vc.view.height=scrollView.height;
-    //设置内边距
-    CGFloat bottom=self.tabBarController.tabBar.height;//底部高度
-    CGFloat top=CGRectGetMaxY(self.titleContentView.frame);//头部最大Y值
-    vc.tableView.contentInset=UIEdgeInsetsMake(top, 0, bottom, 0);
-    vc.tableView.scrollIndicatorInsets=vc.tableView.contentInset;
+    //设置内边距--在类里面
+   
+    
     [scrollView addSubview:vc.view];
 }
 -(void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{

@@ -14,26 +14,7 @@
 
 @implementation XMGVideoTableViewController
 
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
+-(NSString *)type{
+    return @"41";
 }
-
-#pragma mark - Table view data source
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 10;
-}
-
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
-    if(cell==nil) cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"cell"];
-    
-    cell.detailTextLabel.text=[NSString stringWithFormat:@"%@-----%ld",[self class],(long)indexPath.row];
-    
-    return cell;
-}
-
 @end

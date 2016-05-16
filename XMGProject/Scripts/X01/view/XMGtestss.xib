@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="115" id="KGk-i7-Jjw" customClass="XMGtestss">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="114"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wq-Xw-y8o" userLabel="1">
+                        <rect key="frame" x="8" y="0.0" width="101" height="30"/>
+                        <animations/>
+                        <state key="normal" title="Button"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SWJ-gq-bvc" userLabel="3">
+                        <rect key="frame" x="211" y="0.0" width="101" height="30"/>
+                        <animations/>
+                        <state key="normal" title="Button"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ei-VO-R6u" userLabel="2">
+                        <rect key="frame" x="109" y="0.0" width="102" height="30"/>
+                        <animations/>
+                        <state key="normal" title="Button"/>
+                    </button>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="SWJ-gq-bvc" firstAttribute="leading" secondItem="9ei-VO-R6u" secondAttribute="trailing" id="1gZ-70-AL9"/>
+                    <constraint firstItem="9ei-VO-R6u" firstAttribute="height" secondItem="1wq-Xw-y8o" secondAttribute="height" id="4b6-VJ-Uzh"/>
+                    <constraint firstItem="9ei-VO-R6u" firstAttribute="width" secondItem="1wq-Xw-y8o" secondAttribute="width" id="61a-rn-CbC"/>
+                    <constraint firstItem="9ei-VO-R6u" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="88j-6T-Bzd"/>
+                    <constraint firstItem="SWJ-gq-bvc" firstAttribute="height" secondItem="1wq-Xw-y8o" secondAttribute="height" id="A5S-3H-0TP"/>
+                    <constraint firstItem="1wq-Xw-y8o" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="EKG-Rc-Kge"/>
+                    <constraint firstItem="SWJ-gq-bvc" firstAttribute="leading" secondItem="9ei-VO-R6u" secondAttribute="trailing" id="FGA-bw-Jp7"/>
+                    <constraint firstItem="9ei-VO-R6u" firstAttribute="leading" secondItem="1wq-Xw-y8o" secondAttribute="trailing" id="H3n-GD-8vT"/>
+                    <constraint firstItem="SWJ-gq-bvc" firstAttribute="width" secondItem="1wq-Xw-y8o" secondAttribute="width" id="Lbf-g3-ZZD"/>
+                    <constraint firstItem="1wq-Xw-y8o" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="LfA-ds-c5X"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="SWJ-gq-bvc" secondAttribute="trailing" id="b2Q-yM-LZM"/>
+                    <constraint firstItem="SWJ-gq-bvc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="yf7-lE-QmF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <point key="canvasLocation" x="233" y="469.5"/>
+        </tableViewCell>
+    </objects>
+</document>
