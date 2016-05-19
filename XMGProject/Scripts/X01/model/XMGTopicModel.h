@@ -33,4 +33,20 @@
 
 /** 评论数量  */
 @property (assign,nonatomic,getter=isSina_v) BOOL  sina_v;
+
+/** type类型  */
+@property (assign,nonatomic) xmgEnumType type;
+
+//图片
+/** 小图  */
+@property (copy,nonatomic) NSString *image0;
+/** 大图  */
+@property (copy,nonatomic) NSString *image1;
+/** 中图  */
+@property (copy,nonatomic) NSString *image2;
+
+
+#pragma -mark -非php接口的数据
+/** cell高度  */
+@property (assign,nonatomic,readonly) CGFloat cellHeight;
 @end

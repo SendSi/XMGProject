@@ -283,16 +283,32 @@
                             </mask>
                         </variation>
                     </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bP6-Ek-hLo" userLabel="文字内容">
+                        <rect key="frame" x="5" y="45" width="310" height="17"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <animations/>
                 <constraints>
+                    <constraint firstItem="bP6-Ek-hLo" firstAttribute="trailing" secondItem="vk9-nA-RcG" secondAttribute="trailing" id="4eJ-mW-105"/>
+                    <constraint firstItem="bP6-Ek-hLo" firstAttribute="top" secondItem="D8r-ad-atZ" secondAttribute="bottom" constant="5" id="FUW-I5-Tfh"/>
                     <constraint firstItem="D8r-ad-atZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="H2x-bP-zPZ"/>
                     <constraint firstAttribute="trailing" secondItem="fhU-lP-JBQ" secondAttribute="trailing" id="PbA-Fp-Mg5"/>
                     <constraint firstAttribute="trailing" secondItem="D8r-ad-atZ" secondAttribute="trailing" id="SVM-mo-Icr"/>
+                    <constraint firstItem="bP6-Ek-hLo" firstAttribute="leading" secondItem="muc-Rz-3KO" secondAttribute="leading" id="bbJ-Z0-bN1"/>
                     <constraint firstItem="D8r-ad-atZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="d9W-P2-RCX"/>
                     <constraint firstAttribute="bottom" secondItem="fhU-lP-JBQ" secondAttribute="bottom" id="gp8-rG-0CR"/>
                     <constraint firstItem="fhU-lP-JBQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="xat-w8-SIC"/>
+                    <constraint firstItem="fhU-lP-JBQ" firstAttribute="top" secondItem="bP6-Ek-hLo" secondAttribute="bottom" constant="10" id="xqq-Pl-uPl"/>
                 </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="xqq-Pl-uPl"/>
+                    </mask>
+                </variation>
             </tableViewCellContentView>
             <animations/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -306,6 +322,7 @@
                 <outlet property="plugsButton" destination="vk9-nA-RcG" id="ht4-ef-GBv"/>
                 <outlet property="repostButton" destination="K0w-Ps-okn" id="EoF-GS-YS9"/>
                 <outlet property="sineVImageView" destination="ssa-1v-CnI" id="FAe-fk-LXf"/>
+                <outlet property="textContentLabel" destination="bP6-Ek-hLo" id="yOg-zi-ovl"/>
                 <outlet property="timeLabel" destination="YL6-uL-ZNY" id="Vky-j2-72P"/>
             </connections>
             <point key="canvasLocation" x="363" y="501"/>

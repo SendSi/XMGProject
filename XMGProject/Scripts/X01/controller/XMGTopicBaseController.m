@@ -46,9 +46,6 @@
     [self setTableviewCell];
 }
 
--(NSString *)type{
-    return nil;
-}
 
 -(void)setTableviewStyle{
     self.tableView.backgroundColor=xmgColorBG;
@@ -81,7 +78,7 @@
     NSMutableDictionary *pars=[NSMutableDictionary dictionary];
     pars[@"a"]=@"list";
     pars[@"c"]=@"data";
-    pars[@"type"]=self.type;
+    pars[@"type"]=@(self.type);
     self.page=0;
     self.params=pars;
     
@@ -110,7 +107,7 @@
     NSMutableDictionary *pars=[NSMutableDictionary dictionary];
     pars[@"a"]=@"list";
     pars[@"c"]=@"data";
-    pars[@"type"]=self.type;
+    pars[@"type"]=@(self.type);
     pars[@"page"]=@(self.page);
     pars[@"maxtime"]=self.maxtime;
     self.params=pars;//self.params防止多次请求389585111
@@ -155,7 +152,8 @@ static NSString *const topicCell=@"topicCell";
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([XMGTopicCell class]) bundle:nil] forCellReuseIdentifier:topicCell];
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 200;
+   XMGTopicModel *model= self.topicArr[indexPath.row];
+    return model.cellHeight;
 }
 
 

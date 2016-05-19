@@ -10,6 +10,7 @@
 
 @interface XMGTopicBaseController : UITableViewController
 
--(NSString *)type;
+/** type类型  */
+@property (assign,nonatomic) xmgEnumType type;
 
 @end

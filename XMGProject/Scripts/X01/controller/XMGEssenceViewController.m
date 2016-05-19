@@ -8,12 +8,7 @@
 
 #import "XMGEssenceViewController.h"
 #import "XMGRecommendAttentionTableViewController.h"
-#import "XMGAllTableViewContoller.h"
-#import "XMGVideoTableViewController.h"
-#import "XMGSoundsTableViewController.h"
-#import "XMGTextureTableViewController.h"
-#import "XMGWordTableViewController.h"
-
+#import "XMGTopicBaseController.h"
 
 
 /** 主页 */
@@ -87,12 +82,12 @@
             [btns.titleLabel sizeToFit];//相当于 合适位置
             self.titleBottomRed.width=btns.titleLabel.width;
             self.titleBottomRed.centerX=btns.centerX;
-           
+            
         }
     }
     self.titleContentView=fatherView;
     
-     [fatherView addSubview:titleBottomRed];
+    [fatherView addSubview:titleBottomRed];
 }
 
 /** 点击分类 头部头部内容  */
@@ -139,13 +134,13 @@
     [self.view insertSubview:conteview atIndex:0];
     //设置内边距
     
-
+    
     conteview.contentSize=CGSizeMake(conteview.width*self.childViewControllers.count, 0 );
     conteview.pagingEnabled=YES;
     conteview.delegate=self;
     self.bigContentView=conteview;
     
-     [self scrollViewDidEndScrollingAnimation:conteview];
+    [self scrollViewDidEndScrollingAnimation:conteview];
 }
 
 
@@ -163,7 +158,7 @@
     vc.view.y=0;//必须设值
     vc.view.height=scrollView.height;
     //设置内边距--在类里面
-   
+    
     
     [scrollView addSubview:vc.view];
 }
@@ -177,19 +172,24 @@
 }
 
 -(void)setVCTableViewController{
-    XMGAllTableViewContoller *all=[[XMGAllTableViewContoller alloc] init];
+    XMGTopicBaseController *all=[[XMGTopicBaseController alloc] init];
+    all.type=xmgTypeAll;
     [self addChildViewController:all];
     
-    XMGVideoTableViewController    *video=[[XMGVideoTableViewController alloc] init];
+    XMGTopicBaseController    *video=[[XMGTopicBaseController alloc] init];
+    video.type=XmgTypeVideo;
     [self addChildViewController:video];
     
-    XMGSoundsTableViewController *sounds=[[XMGSoundsTableViewController alloc] init];
+    XMGTopicBaseController *sounds=[[XMGTopicBaseController alloc] init];
+    sounds.type=xmgTypeSound;
     [self addChildViewController:sounds];
     
-    XMGTextureTableViewController *texture=[[XMGTextureTableViewController alloc] init];
+    XMGTopicBaseController *texture=[[XMGTopicBaseController alloc] init];
+    texture.type=xmgTypeTexture;
     [self addChildViewController:texture];
     
-    XMGWordTableViewController *word=[[XMGWordTableViewController alloc] init];
+    XMGTopicBaseController *word=[[XMGTopicBaseController alloc] init];
+    word.type=xmgTypeWord;
     [self addChildViewController:word];
 }
 
