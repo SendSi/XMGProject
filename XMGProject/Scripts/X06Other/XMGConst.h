@@ -15,3 +15,7 @@ UIKIT_EXTERN CGFloat const xmgCellTop;
 UIKIT_EXTERN CGFloat const xmgCellBottom;
 /** cell的间隔  */
 UIKIT_EXTERN CGFloat const xmgCellMargin;
+/** cell的图片最大高度  */
+UIKIT_EXTERN CGFloat const xmgCellTextureMaxH;
+/** cell的图片超出最大高度 而显示的高度  */
+UIKIT_EXTERN CGFloat const xmgCellTextureBeyondH;

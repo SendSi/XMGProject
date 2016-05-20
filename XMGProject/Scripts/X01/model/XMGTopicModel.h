@@ -39,14 +39,37 @@
 
 //图片
 /** 小图  */
-@property (copy,nonatomic) NSString *image0;
+@property (copy,nonatomic) NSString *small_image0;
 /** 大图  */
-@property (copy,nonatomic) NSString *image1;
+@property (copy,nonatomic) NSString *big_image1;
 /** 中图  */
-@property (copy,nonatomic) NSString *image2;
+@property (copy,nonatomic) NSString *middle_image2;
+/** 数据中的高度  */
+@property (assign,nonatomic) CGFloat height;
+/** 数据中的width  */
+@property (assign,nonatomic) CGFloat width;
 
 
 #pragma -mark -非php接口的数据
 /** cell高度  */
 @property (assign,nonatomic,readonly) CGFloat cellHeight;
+/** cell 中的图片frame  */
+@property (assign,nonatomic) CGRect textureFrame;
+/** 图片是否太大  */
+@property (assign,nonatomic,getter=isBigTuxture) BOOL bigTuxture;
+
+
+
 @end
+
+
+
+
+
+
+
+
+
+
+
+

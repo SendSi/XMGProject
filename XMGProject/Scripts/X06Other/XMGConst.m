@@ -16,3 +16,7 @@ CGFloat const xmgCellTop=40;
 CGFloat const xmgCellBottom=44;
 /** cell的间隔  */
 CGFloat const xmgCellMargin=10;
+/** cell的图片最大高度  */
+CGFloat const xmgCellTextureMaxH=1000;
+/** cell的图片超出最大高度 而显示的高度  */
+CGFloat const xmgCellTextureBeyondH=260;

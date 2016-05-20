@@ -30,6 +30,16 @@
 
 @implementation XMGTopicCell
 
+-(XMGTopicCellTexture *)topicCellTexture{
+    if(!_topicCellTexture)
+    {
+        XMGTopicCellTexture *model=[XMGTopicCellTexture instanceTopicTexture];
+        [self.contentView addSubview:model];
+        _topicCellTexture=model;
+    }
+    return _topicCellTexture;
+}
+
 - (void)awakeFromNib {
     UIImageView *imgView=[[UIImageView alloc] init];
     imgView.image=[UIImage imageNamed:@"mainCellBackground"];
@@ -43,7 +53,6 @@
     [self.headImageVIew sd_setImageWithURL:[NSURL URLWithString:topicModel.profile_image]placeholderImage:[UIImage imageNamed:@"defaultUserIcon"]];
     self.nameLabel.text =topicModel.name;
     
-    
     self.timeLabel.text=topicModel.created_at;
     topicModel.sina_v=arc4random()%2;
     self.sineVImageView.hidden=!topicModel.sina_v;
@@ -55,6 +64,9 @@
     [self setNumber:self.commentButton count:topicModel.comment placeHolderTitle:@"评论"];
     
     self.textContentLabel.text=topicModel.text;
+    
+self.topicCellTexture.frame=topicModel.textureFrame;
+    self.topicCellTexture.topicModel=topicModel;
 }
 
 

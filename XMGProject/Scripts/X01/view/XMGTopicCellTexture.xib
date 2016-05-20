@@ -10,7 +10,7 @@
             <rect key="frame" x="0.0" y="0.0" width="430" height="155"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bpc-Sv-ptu" userLabel="图片">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bpc-Sv-ptu" userLabel="图片">
                     <rect key="frame" x="0.0" y="0.0" width="430" height="155"/>
                     <animations/>
                 </imageView>
@@ -47,6 +47,11 @@
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="gifImage" destination="P4U-LV-e9Q" id="v6s-Gh-3CN"/>
+                <outlet property="needClickShowButton" destination="kRl-Af-9Jv" id="Zcw-DL-epj"/>
+                <outlet property="showImage" destination="bpc-Sv-ptu" id="KkY-Kb-gg2"/>
+            </connections>
             <point key="canvasLocation" x="-4" y="37.5"/>
         </view>
     </objects>

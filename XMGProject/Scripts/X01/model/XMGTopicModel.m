@@ -7,10 +7,19 @@
 //
 
 #import "XMGTopicModel.h"
+#import <MJExtension.h>
 
 @implementation XMGTopicModel
 {
     CGFloat _cellHeight;
+}
+
++(NSDictionary *)mj_replacedKeyFromPropertyName{
+    return @{
+             @"small_image0":@"image0",
+             @"big_image1":@"image1",
+             @"middle_image2":@"image2"
+             };
 }
 
 -(NSString *)created_at{
@@ -53,16 +62,28 @@
     }
 }
 
-
 -(CGFloat)cellHeight{
     if(!_cellHeight){
-        CGSize sizess=CGSizeMake([UIScreen mainScreen].bounds.size.width-40, MAXFLOAT);
+        CGFloat sizeShowWidth=[UIScreen mainScreen].bounds.size.width-40;
+        CGSize sizess=CGSizeMake(sizeShowWidth, MAXFLOAT);
         CGFloat heightH=  [  self.text boundingRectWithSize:sizess options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:14]} context:nil].size.height;
-//段子
+        //段子
         _cellHeight=heightH+xmgCellBottom+xmgCellTop+2*xmgCellMargin;
-    //图片
+        //图片
         if(self.type==xmgTypeTexture){
-            
+            CGFloat textureY=xmgCellMargin+xmgCellTop+heightH;//text文字下的高度
+            CGFloat textureW=sizeShowWidth;
+            CGFloat textureH;
+            if(self.height>xmgCellTextureMaxH){
+                textureH=xmgCellTextureBeyondH;
+                self.bigTuxture=YES;
+            }
+            else{
+                textureH=sizeShowWidth*self.height/self.width;
+                self.bigTuxture=NO;
+            }
+            self.textureFrame=CGRectMake(0, textureY, textureW+18, textureH);
+            _cellHeight+=xmgCellMargin+textureH;
         }
         else if (self.type==XmgTypeVideo){
             
