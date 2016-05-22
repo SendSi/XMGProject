@@ -7,6 +7,7 @@
 //
 
 #import "XMGTabBar.h"
+#import "XMGPublicCenterController.h"
 @interface XMGTabBar()
 @property (nonatomic,weak) UIButton *plusButton;
 @end
@@ -17,6 +18,7 @@
     self=[super initWithFrame:frame];
     if(self){
         UIButton *plusButton=[[UIButton alloc] init];
+        [plusButton addTarget:self action:@selector(loadCenterClick) forControlEvents:UIControlEventTouchUpInside];
         [plusButton setImage:[UIImage imageNamed:@"tabBar_publish_icon"] forState:UIControlStateNormal];
         [plusButton setImage:[UIImage imageNamed:@"tabBar_publish_click_icon"] forState:UIControlStateSelected];
         [self addSubview:plusButton];
@@ -25,6 +27,12 @@
         [self setBackgroundImage:[UIImage imageNamed:@"tabbar-light"]];//tabbar-light"]];
     }
     return self;
+}
+
+-(void)loadCenterClick{
+    XMGPublicCenterController *centerController=[[XMGPublicCenterController alloc] init];
+    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:centerController animated:NO completion:nil  ];
+
 }
 
 -(void)layoutSubviews{

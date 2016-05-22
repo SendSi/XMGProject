@@ -59,7 +59,8 @@
 @property (assign,nonatomic,getter=isBigTuxture) BOOL bigTuxture;
 
 
-
+/** 图片的下载进度条 num  */
+@property (assign,nonatomic) CGFloat progressNumber;
 @end
 
 

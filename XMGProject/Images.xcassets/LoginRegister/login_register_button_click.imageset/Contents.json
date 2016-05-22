@@ -2,8 +2,8 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "login_register_button_click.png",
-      "scale" : "1x"
+      "scale" : "1x",
+      "filename" : "login_register_button_click.png"
     },
     {
       "idiom" : "universal",

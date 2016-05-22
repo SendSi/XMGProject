@@ -26,7 +26,6 @@
 		137A911B1CC60D140003FB29 /* XMGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137A910B1CC60D140003FB29 /* XMGNavigationController.m */; settings = {ASSET_TAGS = (); }; };
 		137A911C1CC60D140003FB29 /* XMGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 137A910D1CC60D140003FB29 /* XMGTabBar.m */; settings = {ASSET_TAGS = (); }; };
 		137A911D1CC60D140003FB29 /* XMGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137A910F1CC60D140003FB29 /* XMGTabBarController.m */; settings = {ASSET_TAGS = (); }; };
-		137A911E1CC60D140003FB29 /* XMGTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137A91141CC60D140003FB29 /* XMGTestViewController.m */; settings = {ASSET_TAGS = (); }; };
 		137A912A1CC610960003FB29 /* XMGFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 137A91291CC610960003FB29 /* XMGFriendTrendsViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		137A912C1CC61EC10003FB29 /* XMGMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 137A912B1CC61EC10003FB29 /* XMGMeViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		13880F441CC72E95002131AD /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 13880F431CC72E95002131AD /* Foundation+Log.m */; settings = {ASSET_TAGS = (); }; };
@@ -41,6 +40,8 @@
 		2D0A84C71CEE06A6005D8D7F /* XMGTopicCellTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0A84C61CEE06A6005D8D7F /* XMGTopicCellTexture.m */; settings = {ASSET_TAGS = (); }; };
 		2D0A84C91CEE06C1005D8D7F /* XMGTopicCellTexture.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D0A84C81CEE06C1005D8D7F /* XMGTopicCellTexture.xib */; settings = {ASSET_TAGS = (); }; };
 		2D21EE791CD8DA960099EB0A /* XMGHighPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D21EE781CD8DA960099EB0A /* XMGHighPlaceholder.m */; settings = {ASSET_TAGS = (); }; };
+		2D80F44D1CF0B4DC00FA84DE /* XMGTexureShowAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D80F44B1CF0B4DC00FA84DE /* XMGTexureShowAllViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2D80F44E1CF0B4DC00FA84DE /* XMGTexureShowAllViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D80F44C1CF0B4DC00FA84DE /* XMGTexureShowAllViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		2D834EDD1CDF725B00674593 /* XMGTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D834EDC1CDF725B00674593 /* XMGTopicModel.m */; settings = {ASSET_TAGS = (); }; };
 		2D8DB2781CE89878001ED021 /* NSDate+XMGDateShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8DB2771CE89878001ED021 /* NSDate+XMGDateShow.m */; settings = {ASSET_TAGS = (); }; };
 		2DCC442C1CD764FB00109755 /* XMGLoginResgisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC442A1CD764FB00109755 /* XMGLoginResgisterViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -50,6 +51,10 @@
 		2DD29CEF1CE71FE700B54006 /* XMGTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD29CED1CE71FE700B54006 /* XMGTopicCell.m */; settings = {ASSET_TAGS = (); }; };
 		2DD29CF01CE71FE700B54006 /* XMGTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DD29CEE1CE71FE700B54006 /* XMGTopicCell.xib */; settings = {ASSET_TAGS = (); }; };
 		2DDF7B051CEA198B00457D59 /* XMGTopicBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDF7B041CEA198B00457D59 /* XMGTopicBaseController.m */; settings = {ASSET_TAGS = (); }; };
+		2DEF62EA1CEF481100484D7A /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEF62E71CEF481100484D7A /* DACircularProgressView.m */; settings = {ASSET_TAGS = (); }; };
+		2DEF62EB1CEF481100484D7A /* DALabeledCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEF62E91CEF481100484D7A /* DALabeledCircularProgressView.m */; settings = {ASSET_TAGS = (); }; };
+		2DFC66EA1CF1EEAC0065D2D6 /* XMGPublicCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC66E81CF1EEAC0065D2D6 /* XMGPublicCenterController.m */; settings = {ASSET_TAGS = (); }; };
+		2DFC66EB1CF1EEAC0065D2D6 /* XMGPublicCenterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DFC66E91CF1EEAC0065D2D6 /* XMGPublicCenterController.xib */; settings = {ASSET_TAGS = (); }; };
 		F2E7A4AC6DF2FDB25794F140 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C88448A9F0DB8E86FF2B211 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -101,8 +106,6 @@
 		137A910E1CC60D140003FB29 /* XMGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTabBarController.h; sourceTree = "<group>"; };
 		137A910F1CC60D140003FB29 /* XMGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTabBarController.m; sourceTree = "<group>"; };
 		137A91111CC60D140003FB29 /* myPch.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPch.pch; sourceTree = "<group>"; };
-		137A91131CC60D140003FB29 /* XMGTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTestViewController.h; sourceTree = "<group>"; };
-		137A91141CC60D140003FB29 /* XMGTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTestViewController.m; sourceTree = "<group>"; };
 		137A91291CC610960003FB29 /* XMGFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGFriendTrendsViewController.xib; sourceTree = "<group>"; };
 		137A912B1CC61EC10003FB29 /* XMGMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGMeViewController.xib; sourceTree = "<group>"; };
 		13880F431CC72E95002131AD /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
@@ -125,6 +128,9 @@
 		2D0A84C81CEE06C1005D8D7F /* XMGTopicCellTexture.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGTopicCellTexture.xib; sourceTree = "<group>"; };
 		2D21EE771CD8DA960099EB0A /* XMGHighPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGHighPlaceholder.h; sourceTree = "<group>"; };
 		2D21EE781CD8DA960099EB0A /* XMGHighPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGHighPlaceholder.m; sourceTree = "<group>"; };
+		2D80F44A1CF0B4DC00FA84DE /* XMGTexureShowAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMGTexureShowAllViewController.h; path = ../view/XMGTexureShowAllViewController.h; sourceTree = "<group>"; };
+		2D80F44B1CF0B4DC00FA84DE /* XMGTexureShowAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMGTexureShowAllViewController.m; path = ../view/XMGTexureShowAllViewController.m; sourceTree = "<group>"; };
+		2D80F44C1CF0B4DC00FA84DE /* XMGTexureShowAllViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = XMGTexureShowAllViewController.xib; path = ../view/XMGTexureShowAllViewController.xib; sourceTree = "<group>"; };
 		2D834EDB1CDF725B00674593 /* XMGTopicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopicModel.h; sourceTree = "<group>"; };
 		2D834EDC1CDF725B00674593 /* XMGTopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopicModel.m; sourceTree = "<group>"; };
 		2D8DB2761CE89878001ED021 /* NSDate+XMGDateShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XMGDateShow.h"; sourceTree = "<group>"; };
@@ -141,6 +147,13 @@
 		2DD29CEE1CE71FE700B54006 /* XMGTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGTopicCell.xib; sourceTree = "<group>"; };
 		2DDF7B031CEA198B00457D59 /* XMGTopicBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopicBaseController.h; sourceTree = "<group>"; };
 		2DDF7B041CEA198B00457D59 /* XMGTopicBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopicBaseController.m; sourceTree = "<group>"; };
+		2DEF62E61CEF481100484D7A /* DACircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACircularProgressView.h; sourceTree = "<group>"; };
+		2DEF62E71CEF481100484D7A /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
+		2DEF62E81CEF481100484D7A /* DALabeledCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DALabeledCircularProgressView.h; sourceTree = "<group>"; };
+		2DEF62E91CEF481100484D7A /* DALabeledCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DALabeledCircularProgressView.m; sourceTree = "<group>"; };
+		2DFC66E71CF1EEAC0065D2D6 /* XMGPublicCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMGPublicCenterController.h; path = XMGProject/Scripts/X06Other/XMGPublicCenterController.h; sourceTree = SOURCE_ROOT; };
+		2DFC66E81CF1EEAC0065D2D6 /* XMGPublicCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMGPublicCenterController.m; path = XMGProject/Scripts/X06Other/XMGPublicCenterController.m; sourceTree = SOURCE_ROOT; };
+		2DFC66E91CF1EEAC0065D2D6 /* XMGPublicCenterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = XMGPublicCenterController.xib; path = XMGProject/Scripts/X06Other/XMGPublicCenterController.xib; sourceTree = SOURCE_ROOT; };
 		5C88448A9F0DB8E86FF2B211 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D7955D1C8AB195920EBAE8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		FC987771EABB618D85F0552F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -255,6 +268,9 @@
 				13BA41121CCB2DA6008EF7C9 /* XMGRecommendAttentionTableViewController.m */,
 				2DDF7B031CEA198B00457D59 /* XMGTopicBaseController.h */,
 				2DDF7B041CEA198B00457D59 /* XMGTopicBaseController.m */,
+				2D80F44A1CF0B4DC00FA84DE /* XMGTexureShowAllViewController.h */,
+				2D80F44B1CF0B4DC00FA84DE /* XMGTexureShowAllViewController.m */,
+				2D80F44C1CF0B4DC00FA84DE /* XMGTexureShowAllViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -420,6 +436,9 @@
 		137A91011CC60D140003FB29 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				2DFC66E71CF1EEAC0065D2D6 /* XMGPublicCenterController.h */,
+				2DFC66E81CF1EEAC0065D2D6 /* XMGPublicCenterController.m */,
+				2DFC66E91CF1EEAC0065D2D6 /* XMGPublicCenterController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -441,13 +460,12 @@
 		137A91041CC60D140003FB29 /* X06Other */ = {
 			isa = PBXGroup;
 			children = (
+				2DEF62E51CEF481100484D7A /* DACircularProgress */,
 				137A91111CC60D140003FB29 /* myPch.pch */,
 				13880F431CC72E95002131AD /* Foundation+Log.m */,
 				137A91051CC60D140003FB29 /* controller */,
 				137A91101CC60D140003FB29 /* model */,
 				137A91121CC60D140003FB29 /* view */,
-				137A91131CC60D140003FB29 /* XMGTestViewController.h */,
-				137A91141CC60D140003FB29 /* XMGTestViewController.m */,
 				2DD29CE91CE708F000B54006 /* XMGConst.h */,
 				2DD29CEA1CE708F000B54006 /* XMGConst.m */,
 				2D8DB2761CE89878001ED021 /* NSDate+XMGDateShow.h */,
@@ -488,6 +506,17 @@
 				135AD0221CD9B19D001B70E6 /* XMGGuideView.xib */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		2DEF62E51CEF481100484D7A /* DACircularProgress */ = {
+			isa = PBXGroup;
+			children = (
+				2DEF62E61CEF481100484D7A /* DACircularProgressView.h */,
+				2DEF62E71CEF481100484D7A /* DACircularProgressView.m */,
+				2DEF62E81CEF481100484D7A /* DALabeledCircularProgressView.h */,
+				2DEF62E91CEF481100484D7A /* DALabeledCircularProgressView.m */,
+			);
+			path = DACircularProgress;
 			sourceTree = "<group>";
 		};
 		433827A6A7BE58702DA502E6 /* Frameworks */ = {
@@ -594,12 +623,14 @@
 				2DD29CF01CE71FE700B54006 /* XMGTopicCell.xib in Resources */,
 				2DCC442D1CD764FB00109755 /* XMGLoginResgisterViewController.xib in Resources */,
 				135AD0231CD9B19D001B70E6 /* XMGGuideView.xib in Resources */,
+				2DFC66EB1CF1EEAC0065D2D6 /* XMGPublicCenterController.xib in Resources */,
 				13926B541CC889F100B2BA0B /* XMGRecommondUserCell.xib in Resources */,
 				2D0A84C91CEE06C1005D8D7F /* XMGTopicCellTexture.xib in Resources */,
 				134518721CC7247100EB8587 /* XMGRecommendViewController.xib in Resources */,
 				135AF2BA1CC77BC1009D0476 /* XMGRecommendCategoryCell.xib in Resources */,
 				135A2B421CBE8AD600FDA8BD /* Images.xcassets in Resources */,
 				13BA411E1CCB30DD008EF7C9 /* XMGRecommendAttentionCell.xib in Resources */,
+				2D80F44E1CF0B4DC00FA84DE /* XMGTexureShowAllViewController.xib in Resources */,
 				137A912A1CC610960003FB29 /* XMGFriendTrendsViewController.xib in Resources */,
 				137A912C1CC61EC10003FB29 /* XMGMeViewController.xib in Resources */,
 			);
@@ -683,7 +714,9 @@
 				137A91161CC60D140003FB29 /* XMGFriendTrendsViewController.m in Sources */,
 				2DCC442C1CD764FB00109755 /* XMGLoginResgisterViewController.m in Sources */,
 				137A911B1CC60D140003FB29 /* XMGNavigationController.m in Sources */,
+				2DEF62EB1CEF481100484D7A /* DALabeledCircularProgressView.m in Sources */,
 				135AF2B91CC77BC1009D0476 /* XMGRecommendCategoryCell.m in Sources */,
+				2DFC66EA1CF1EEAC0065D2D6 /* XMGPublicCenterController.m in Sources */,
 				137A91181CC60D140003FB29 /* XMGMeViewController.m in Sources */,
 				2D8DB2781CE89878001ED021 /* NSDate+XMGDateShow.m in Sources */,
 				13926B531CC889F100B2BA0B /* XMGRecommondUserCell.m in Sources */,
@@ -692,10 +725,11 @@
 				2DD29CEF1CE71FE700B54006 /* XMGTopicCell.m in Sources */,
 				2DCC44301CD79E7E00109755 /* XMGVerticalButton.m in Sources */,
 				137A911A1CC60D140003FB29 /* UIView+XMGExtension.m in Sources */,
+				2D80F44D1CF0B4DC00FA84DE /* XMGTexureShowAllViewController.m in Sources */,
 				13BA41161CCB3036008EF7C9 /* XMGRecommendAttentionModel.m in Sources */,
 				2D0A84C71CEE06A6005D8D7F /* XMGTopicCellTexture.m in Sources */,
 				13BA411D1CCB30DD008EF7C9 /* XMGRecommendAttentionCell.m in Sources */,
-				137A911E1CC60D140003FB29 /* XMGTestViewController.m in Sources */,
+				2DEF62EA1CEF481100484D7A /* DACircularProgressView.m in Sources */,
 				137A91191CC60D140003FB29 /* UIBarButtonItem+XMGButtonItemTool.m in Sources */,
 				135A2B371CBE8AD600FDA8BD /* main.m in Sources */,
 			);

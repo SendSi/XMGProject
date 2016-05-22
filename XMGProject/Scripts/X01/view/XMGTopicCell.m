@@ -65,7 +65,7 @@
     
     self.textContentLabel.text=topicModel.text;
     
-self.topicCellTexture.frame=topicModel.textureFrame;
+    self.topicCellTexture.frame=topicModel.textureFrame;
     self.topicCellTexture.topicModel=topicModel;
 }
 

@@ -72,16 +72,17 @@
         //图片
         if(self.type==xmgTypeTexture){
             CGFloat textureY=xmgCellMargin+xmgCellTop+heightH;//text文字下的高度
-            CGFloat textureW=sizeShowWidth;
+            CGFloat textureW=sizess.width;
             CGFloat textureH;
-            if(self.height>xmgCellTextureMaxH){
+            textureH=textureW*self.height/self.width;
+            //NSLogs(@"texture=%f",textureH);
+            if(textureH>=xmgCellTextureMaxH){
                 textureH=xmgCellTextureBeyondH;
-                self.bigTuxture=YES;
+              self.bigTuxture=YES;
             }
-            else{
-                textureH=sizeShowWidth*self.height/self.width;
-                self.bigTuxture=NO;
-            }
+            else
+               self.bigTuxture=NO;
+      
             self.textureFrame=CGRectMake(0, textureY, textureW+18, textureH);
             _cellHeight+=xmgCellMargin+textureH;
         }

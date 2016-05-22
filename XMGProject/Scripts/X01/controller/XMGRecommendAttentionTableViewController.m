@@ -43,10 +43,9 @@ static NSString * const attention=@"attention";
     self.tableView.backgroundColor=xmgColorBG;
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([XMGRecommendAttentionCell class]) bundle:nil] forCellReuseIdentifier:attention];
     self.tableView.separatorStyle=UITableViewCellSeparatorStyleNone;
-//  self.tableView.separatorInset=÷;
-
-    
 }
+
+
 -(void)loadNewTableView{
     [SVProgressHUD show];
     NSMutableDictionary *params=[NSMutableDictionary dictionary];
